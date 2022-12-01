@@ -69,10 +69,8 @@ programa
 					escreva("O monstro está se curando por ",mc," de vida.")
 				}
 				senao
-				{
 				//De 6 à 7, ataque forte
 				se (ma<18)
-				}
 				{
 					ma=2*matk*mr
 					escreva("O monstro está usando o seu ataque mais forte, causando ",ma," de dano.")
@@ -109,10 +107,8 @@ programa
 					mh=mh-pan
 				}
 				senao
-				{
 				//Para cura
 				se(pa=="2")
-				}
 				{
 					se(pm>0)
 					{
@@ -135,10 +131,8 @@ programa
 					ph=ph-ma
 				}
 				senao
-				{
 				//Caso defenda
 				se(pa=="3")
-				}
 				{
 					//Resultadi
 					escreva("Você se defendeu do ataque do monstro.")
